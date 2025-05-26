@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/3d-game.dir/link.d "CMakeFiles/3d-game.dir/src/3dgame.c.o" -o 3d-game  -lSDL3 -lSDL3_image

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nathantan/Documents/001-Code/sdl3/3d-game/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/3d-game.dir/src/3dgame.c.o -c /home/nathantan/Documents/001-Code/sdl3/3d-game/src/3dgame.c",
+  "file": "/home/nathantan/Documents/001-Code/sdl3/3d-game/src/3dgame.c",
+  "output": "CMakeFiles/3d-game.dir/src/3dgame.c.o"
+}
+]
