@@ -1,4 +1,4 @@
-/* woodeneye-008.c ... */
+/* 3dgame.c ... */
 
 /*
  * This code is public domain. Feel free to use it for any purpose!
@@ -8,7 +8,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 
-#define MAP_BOX_SCALE 16
+#define MAP_BOX_SCALE 8
 #define MAP_BOX_EDGES_LEN (12 + MAP_BOX_SCALE * 2)
 #define MAX_PLAYER_COUNT 4
 #define CIRCLE_DRAW_SIDES 32
@@ -17,8 +17,8 @@
 typedef struct {
   SDL_MouseID mouse;
   SDL_KeyboardID keyboard;
-  double pos[3];
-  double vel[3];
+  double pos[7];
+  double vel[7];
   unsigned int yaw;
   int pitch;
   float radius, height;
